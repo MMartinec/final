@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/* CSS Document */
+#pagewrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+}
+body p {
+	font-family: "Lane - Narrow";
+	
+}
+
+
+#content {
+	width: 460px;
+	float: left;
+	color: #564333;
+	border-top-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	padding-right: 2%;
+	margin-top: 5%;
+	font-size: 0.875em;
+	
+}
+
+
+.formcontainer { 
+	padding-left: 30%;
+
+	width: 100%;
+}
+#sidebar {
+	width: 460px;
+	float: right;
+	margin-top: 5%;
+	font-family: "Lane - Narrow";
+	font-size: 1.125em;
+	background-color: #6992A4;
+	border-left: 3px solid #564333;
+	border-bottom: 3px solid #564333;
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+#logo img {
+	padding-top: 0%;
+	padding-left: 5%;
+	
+}
+ ul.nav {
+	 list-style: none;
+	 padding-top: 0%;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	padding-left:35%;
+	background-color: #FFF;
+	font-family: "Lane - Narrow";
+	font-size: 1.125em;
+ }
+ ul.nav li {
+	 display: block;
+	 padding-right: 2%;
+ }
+
+a:link {
+	color: #D5C69D;
+	text-decoration: underline;
+}
+a:visited {
+	color: #564333;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+	color: #506B75;
+}
+
+h1 {
+	font-family: "Lane - Narrow";
+	font-size: 1.125em;
+	
+}
+h2 {
+	font-size: 0.875em;
+	font-family: "Lane - Narrow";
+	
+}
+#find p{
+	font-size: 1.125em;
+}
+
+.addresses {
+	
+	padding: 2% 2% 2%;
+	color: #564333;	
+	
+}
+.addresses li{
+	list-style: none;
+	padding-left: 10%;
+	font-size: 0.875em;
+	
+}
+.addresses h2 {
+	text-align: center;
+}
+
+.hours {
+	padding: 2% 2% 4%;
+	color: #6992A4;
+	border-right-width: 3px;
+	
+}
+.hours li{
+	list-style: none;
+	padding-right: 2%;
+	font-size: 0.875em;
+	
+	
+}
+.hours h2 {
+	text-align: center;
+}
+
+
+.newsletter {
+	padding: 2%;
+	color: #564333;
+	font-size: 0.875em;
+	text-align: center;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+}
+form {
+	color: #FFF;
+	font-size: 0.75em;
+
+	
+}
+
+
+#scroll {
+	list-style: none;
+	font-family:"Lane - Narrow";
+	font-size: 0.6875em;
+	padding-bottom: 5%;
+	padding-right: 20%;
+	width: 90%;
+	
+	
+}
+#scroll li {
+	display: inline;
+	padding-right: 15%;
+	padding-left: 10%;
+	
+}
+
+
+@media screen and (max-width: 980px) {
+	#pagewrap {
+		width: 88%;
+	}
+	#content { 
+	width: 90%;
+	float: none;
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+	
+	
+	#sidebar {
+		width: 80%;
+		float: none;
+		margin-left: 11%;
+		padding-right: 0%;
+	}
+	
+	#logo {
+		padding-left: 16%;
+		padding-right: 0%;
+	}
+	.formcontainer {
+		padding-left: 0%;
+	}
+	 
+	 nav {
+		 padding-left: 18%;
+	 }
+	 form {
+		 padding-left: 34%;
+	 }
+	 #scroll li  {
+		 text-align: center;
+		 
+	 }
+	 #scroll {
+		 padding-left: 10%;
+	 }
+	
+}
+@media screen and (max-width: 650px) {
+
+
+	#header {
+		height: auto;
+	}
+
+	
+	#pagewrap {
+		width: 95%;
+	}
+
+	#content { 
+	width: 77%;
+	float: none;
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+	
+	
+	#sidebar {
+		width: 77%;
+		float: none;
+		margin-left: 11%;
+		padding-right: 0%;
+	}
+	
+	#logo {
+		padding-left: 16%;
+		padding-right: 0%;
+	}
+	.formcontainer {
+		padding-left: 0%;
+	}
+	 
+	 nav {
+		 padding-left: 18%;
+	 }
+	 form {
+		 padding-left: 26%;
+	 }
+	* #scroll li  {
+		 text-align: center;
+		 display: block;
+		 padding-right: 2%;
+		 
+	 }
+
+
+	  #scroll {
+		 padding-left: 3%;
+	 }
+	 .info {
+		 padding-left: 15%;
+	 }
+}
+@media screen and (max-width: 480px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	#content { 
+	width: 77%;
+	float: none;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-right: none;
+	}
+	
+	
+	#sidebar {
+		width: 77%;
+		float: none;
+		margin-left: 11%;
+		padding-right: 0%;
+	}
+	
+	#logo {
+		padding-left: 16%;
+		padding-right: 0%;
+	}
+	.formcontainer {
+		padding-left: 0%;
+	}
+	 
+	 nav {
+		 padding-left: 18%;
+	 }
+	 form {
+		 padding-left: 12%;
+	 }
+	* #scroll li  {
+		 text-align: center;
+		 display: block;
+		 padding-right: 2%;
+		 
+	 }
+	 input{
+		 width: 80%;
+	 }
+	  #scroll {
+		 padding-left: 3%;
+	 }
+	
+	.info {
+		 padding-left: 15%;
+	 }
+
+}
